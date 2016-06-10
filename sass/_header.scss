@@ -1,0 +1,15 @@
+.header {
+	display: block;
+	background: $darkgray;
+
+	.content {
+		max-width: $max-width;
+		margin: 0 auto;
+		padding: 70px 0;
+		color: $white;
+
+		img {
+			width: 100%;
+		}
+	}
+}
