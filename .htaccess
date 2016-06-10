@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# SPECIFIC ROUTE REDIRECTS
+# /beth -> /about-us
+RedirectMatch 301 ^/beth$ /about-us.php
+
+# Remove file extensions from php files
+# The projects routing structure will mirror the directory structure
+# IE: 'articles/sample-article.php' -> 'darkhorse.dev/articles/sample-article'
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]

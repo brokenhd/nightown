@@ -1,0 +1,55 @@
+updates:
+  update-5:
+    title: Post Title5
+    date: June 8, 2016
+    image: img/update-1.jpg
+    abstract: Here is the abstract field for the home page list.
+    body: |
+      <p>This is how you use normal markup for an article.</p>
+      <img src="http://placehold.it/600x200"/>
+      <p>Another paragraph here ater the image</p>
+    slug: update-5
+
+  update-4:
+    title: Post Title4
+    date: June 8, 2016
+    image: img/update-1.jpg
+    abstract: Here is the abstract field for the home page list.
+    body: |
+      <p>This is how you use normal markup for an article.</p>
+      <img src="http://placehold.it/600x200"/>
+      <p>Another paragraph here ater the image</p>
+    slug: update-4
+
+  update-3:
+    title: Post Title3
+    date: June 8, 2016
+    image: img/update-1.jpg
+    abstract: Here is the abstract field for the home page list.
+    body: |
+      <p>This is how you use normal markup for an article.</p>
+      <img src="http://placehold.it/600x200"/>
+      <p>Another paragraph here ater the image</p>
+    slug: update-3
+
+  update-2:
+    title: Post Title2
+    date: June 8, 2016
+    image: img/update-1.jpg
+    abstract: Here is the abstract field for the home page list.
+    body: |
+      <p>This is how you use normal markup for an article.</p>
+      <img src="http://placehold.it/600x200"/>
+      <p>Another paragraph here ater the image</p>
+    slug: update-2
+
+  update-1:
+    title: Post Title1
+    date: June 8, 2016
+    image: img/update-1.jpg
+    abstract: Here is the abstract field for the home page list.
+    body: |
+      <p>This is how you use normal markup for an article.</p>
+      <img src="http://placehold.it/600x200"/>
+      <p>Another paragraph here ater the image</p>
+    slug: update-1

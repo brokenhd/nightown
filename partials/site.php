@@ -14,3 +14,4 @@ $yaml = new Parser();
 
 // Site Content
 $global = $yaml->parse(file_get_contents( __dir__ . '/../content/global.yaml'));
+$updates = $yaml->parse(file_get_contents( __dir__ . '/../content/updates.yaml'));

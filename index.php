@@ -38,14 +38,21 @@ gathering a team of spirits who can asend and grow stronger depending on your ch
 
 	<div class="updates" name="updates">
 		<div class="content">
-			<div class="post">
-				<div class="copy">
-					<p class="date">June 8, 2016</p>
-					<h3>Post Title</h3>
-					<p>Some post content here</p>
-					<span class="long-arrow"></span>
+
+			<?php $i = 0; foreach($updates['updates'] as $update) { ?>
+				<?php if(++$i > 4) break; ?>
+
+				<div class="update"	style="background-image: url('<?= $update['image']; ?>');">
+					<a href="/updates/show?<?= $update['slug']; ?>" class="copy">
+						<p class="date"><?= $update['date']; ?></p>
+						<h3><?= $update['title']; ?></h3>
+						<p><?= $update['abstract']; ?></p>
+						<span class="long-arrow"></span>
+					</a>
 				</div>
-			</div>
+
+			<?php } ?>
+
 		</div>
 	</div>
 
