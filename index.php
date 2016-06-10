@@ -13,33 +13,42 @@
 
 	<div class="game" name="game">
 		<div class="content">
-			<h2>Explore the dystopian world of myriad, where dreams become nightmare.</h2>
-			<p>Recruit Myriad’s denizens to fight against the coming darkness. Use hundreds of different strategies and countless types of spirits to defeat both friend and foe. Explore alien lands and creeping dungeons, as you uncover the dark past that now threatens to consume Earth. Your character is your own, you will be
-gathering a team of spirits who can asend and grow stronger depending on your choices! The gameplay will test you, but also reward you.</p>
+			<h2><?= $game['title']; ?></h2>
+			<p><?= $game['body']; ?></p>
 		</div>
 	</div>
 
 	<div class="characters" name="characters">
 		<div class="content">
-			<div class="character">
+
+			<div class="current-character"></div>
+
+			<div class="character-grid">
+
+				<?php foreach($characters['characters'] as $character): ?>
+
+					<div class="character">
+						<div class="portrait">
+							<img src="<?= $character['thumb']; ?>"/>
+						</div>
+						<div class="name"><?= $character['name']; ?></div>
+						<div class="model"><img src="<?= $character['gif']; ?>"/></div>
+						<div class="description"><?= $character['description']; ?></div>
+					</div>
+
+				<?php endforeach; ?>
 
 			</div>
-			<div class="character-grid">
-				<div class="grid-item"></div>
-				<div class="grid-item"></div>
-				<div class="grid-item"></div>
-				<div class="grid-item"></div>
-				<div class="grid-item"></div>
-				<div class="grid-item"></div>
-			</div>
-			<div class="character-info"></div>
+
+			<div class="current-description"></div>
+
 		</div>
 	</div>
 
 	<div class="updates" name="updates">
 		<div class="content">
 
-			<?php $i = 0; foreach($updates['updates'] as $update) { ?>
+			<?php $i = 0; foreach($updates['updates'] as $update): ?>
 				<?php if(++$i > 4) break; ?>
 
 				<div class="update"	style="background-image: url('<?= $update['image']; ?>');">
@@ -51,7 +60,7 @@ gathering a team of spirits who can asend and grow stronger depending on your ch
 					</a>
 				</div>
 
-			<?php } ?>
+			<?php endforeach; ?>
 
 		</div>
 	</div>

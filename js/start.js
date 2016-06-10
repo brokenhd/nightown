@@ -11,6 +11,6 @@ define(function (require) {
 	require('velocity');
 
 	// Call backbone modules here in this manner
-	// $('#element').views(require('element'));
-
+	$('.characters').views(require('shared/character'));
+	
 });

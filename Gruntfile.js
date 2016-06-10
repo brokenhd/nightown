@@ -41,7 +41,7 @@ module.exports = function(grunt) {
 				},
 				options: {
 					watchTask: true,
-					proxy: "nightown.dev"
+					proxy: "nightown.dev:8888"
 				}
 			}
 		},

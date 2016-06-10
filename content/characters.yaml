@@ -1,0 +1,36 @@
+characters:
+  madam-rezog:
+    name: Madam Rezog
+    gif: img/madamR.gif
+    thumb: img/madamR.png
+    description: Madam Rezog is Nightown’s resident psychic and fortune teller. She can unlock your true potential by delving deep into your mind and releasing your true power, or so she says. Just remember it’s not free...
+  another-character:
+    name: Another Character
+    gif:
+    thumb: img/unknown.png
+    description:
+  another-character-1:
+    name: Another Character 1
+    gif:
+    thumb: img/unknown.png
+    description:
+  another-character-2:
+    name: Another Character 2
+    gif:
+    thumb: img/unknown.png
+    description:
+  another-character-3:
+    name: Another Character 3
+    gif:
+    thumb: img/unknown.png
+    description:
+  another-character-4:
+    name: Another Character 4
+    gif:
+    thumb: img/unknown.png
+    description:
+  another-character-5:
+    name: Another Character 5
+    gif:
+    thumb: img/unknown.png
+    description:
