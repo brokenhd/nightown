@@ -1,0 +1,26 @@
+.main-nav {
+	display: inline-block;
+	width: 100%;
+	margin-top: 25px;
+
+	a {
+		color: $white;
+		text-transform: uppercase;
+		font-family: 'hydrophilia-iced';
+		text-align: left;
+		font-size: 30px;
+		letter-spacing: 1.6px;
+
+		&:first-of-type {
+			float: left;
+		}
+
+		&:nth-of-type(2) {
+			text-align: center;
+		}
+
+		&:last-of-type {
+			float: right;
+		}
+	}
+}

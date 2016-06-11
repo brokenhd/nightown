@@ -1,15 +1,16 @@
 .header {
 	display: block;
 	background: $darkgray;
+	text-align: center;
 
 	.content {
-		max-width: $max-width;
 		margin: 0 auto;
-		padding: 70px 0;
+		padding: 70px 20px;
 		color: $white;
+		max-width: 626px; // size of the image
 
 		img {
-			width: 100%;
+			width: auto;
 		}
 	}
 }

@@ -23,21 +23,57 @@ define(function(require) {
 
 		// Listeners
 		this.$characters.on('click', this.toggleCharacter);
+		this.setupGrid();
 	};
 
+	/**
+	 * On first page load, insert the first character into current.
+	 */
+	View.setupGrid = function() {
+		$initial = this.$characters.first();
+		this.cloneCharacter($initial);
+	};
+
+	/**
+	 * Detect the clicked character and pass values to selector.
+	 */
 	View.toggleCharacter = function(e) {
 		$current = e.currentTarget;
-		$m = $($current).find('.model').clone();
-		$d = $($current).find('.description').clone();
-		this.switchModels($m);
+
+		// Don't switch if the block is empty.
+		if($($current).find('.description').is(':empty')) return;
+
+		this.cloneCharacter($current);
+	};
+
+	/**
+	 * Clone the Clicked character attributes.
+	 */
+	View.cloneCharacter = function(current) {
+		// Get the items to show and clone instances of them.
+		$n = $(current).find('.name').clone();
+		$m = $(current).find('.model').clone();
+		$d = $(current).find('.description').clone();
+
+		// Fire the actual switch events
+		this.switchModels($m, $n);
 		this.switchBios($d);
 	};
 
-	View.switchModels = function(m) {
+	/**
+	 * Switch the model and the name of the character from the grid.
+	 */
+	View.switchModels = function(m, n) {
+		this.$currentCharacter.find('.name').remove();
 		this.$currentCharacter.find('.model').remove();
+
+		this.$currentCharacter.append(n);
 		this.$currentCharacter.append(m);
 	};
 
+	/**
+	 * Switch the description underneath the grid for selected character.
+	 */
 	View.switchBios = function(d) {
 		this.$currentDescription.find('.description').remove();
 		this.$currentDescription.append(d);

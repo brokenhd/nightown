@@ -1,6 +1,7 @@
-.body {
+body {
 	background: $white;
 	font-family: 'hydrophilia-iced';
+	-webkit-font-smoothing: antialiased;
 }
 
 * {
@@ -10,4 +11,9 @@
 img {
 	max-width: 100%;
 	height: auto;
+	user-select: none;
+}
+
+a {
+	text-decoration: none;
 }

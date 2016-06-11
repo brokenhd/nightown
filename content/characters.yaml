@@ -2,13 +2,13 @@ characters:
   madam-rezog:
     name: Madam Rezog
     gif: img/madamR.gif
-    thumb: img/madamR.png
+    thumb: img/madamR.jpg
     description: Madam Rezog is Nightown’s resident psychic and fortune teller. She can unlock your true potential by delving deep into your mind and releasing your true power, or so she says. Just remember it’s not free...
-  another-character:
-    name: Another Character
-    gif:
-    thumb: img/unknown.png
-    description:
+  ernest-claude:
+    name: Ernest Claude
+    gif: img/ErnestF.gif
+    thumb: img/ernest.jpg
+    description: Ernest has found some way to sell his products on both Earth and on Myriad...simultaneously. How does he do it? No one knows and who cares his products will keep your team alive!
   another-character-1:
     name: Another Character 1
     gif:
@@ -26,11 +26,6 @@ characters:
     description:
   another-character-4:
     name: Another Character 4
-    gif:
-    thumb: img/unknown.png
-    description:
-  another-character-5:
-    name: Another Character 5
     gif:
     thumb: img/unknown.png
     description:

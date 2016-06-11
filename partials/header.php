@@ -12,13 +12,29 @@
 
 		<title>Nightown</title>
 
-		<?/*****************************************
-			 * STYLES
-			 *****************************************/?>
-		<link rel="stylesheet" href="/dist/style.css">
+		<link rel="stylesheet" href="/dist/main.css">
+		<script src="https://use.typekit.net/auk7bos.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 	</head>
 
 	<body>
+
+		<div class="header">
+			<div class="social">
+				<a href="<?= $global['social']['facebook']; ?>"></a>
+				<a href="<?= $global['social']['twitter']; ?>"></a>
+				<a href="<?= $global['social']['youtube']; ?>"></a>
+				<a href="<?= $global['social']['patreon']; ?>"></a>
+			</div>
+			<div class="content">
+				<img src="img/nightown.png">
+				<div class="main-nav">
+					<a href="#game">Game</a>
+					<a href="#characters">Characters</a>
+					<a href="#updates">Updates</a>
+				</div>
+			</div>
+		</div>
 
 		<div id="main">
