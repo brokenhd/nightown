@@ -1,31 +1,30 @@
 {
-	"name": "Nightown",
-	"version": "0.0.1",
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:brokenhd/nightown.git"
-	},
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"lodash": "^3.10.1",
-		"node-slack": "0.0.7",
-		"shipit-cli": "^1.4.0",
-		"shipit-deploy": "^2.0.0"
-	},
-	"devDependencies": {
-		"grunt": "~0.4.1",
-		"grunt-autoprefixer": "~0.2.2",
-		"grunt-browser-sync": "^2.2.0",
-		"grunt-contrib-cssmin": "^1.0.1",
-		"grunt-contrib-requirejs": "^0.4.4",
-		"grunt-contrib-sass": "~0.4.0",
-		"grunt-contrib-watch": "~0.4.4"
-	},
-	"scripts": {
-		"deploy:staging": "node_modules/.bin/shipit staging deploy",
-		"deploy:production": "node_modules/.bin/shipit production deploy",
-		"rollback:staging": "node_modules/.bin/shipit staging rollback",
-		"rollback:production": "node_modules/.bin/shipit production rollback"
-	}
+  "name": "Nightown",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brokenhd/nightown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "shipit-cli": "^1.4.0",
+    "shipit-deploy": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-autoprefixer": "~0.2.2",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-sass": "~0.4.0",
+    "grunt-contrib-watch": "~0.4.4"
+  },
+  "scripts": {
+    "deploy:staging": "node_modules/.bin/shipit staging deploy",
+    "deploy:production": "node_modules/.bin/shipit production deploy",
+    "rollback:staging": "node_modules/.bin/shipit staging rollback",
+    "rollback:production": "node_modules/.bin/shipit production rollback"
+  }
 }

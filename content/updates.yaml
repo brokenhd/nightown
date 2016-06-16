@@ -3,7 +3,7 @@ updates:
     title: Post Title5
     date: June 8, 2016
     image: img/update-1.jpg
-    abstract: Here is the abstract field for the home page list.
+    abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et faucibus massa, et egestas neque. Integer quis bibendum leo. Aenean eu urna vulputate, maximus dui vitae, lacinia risus. Aliquam.
     body: |
       <p>This is how you use normal markup for an article.</p>
       <img src="http://placehold.it/600x200"/>
@@ -14,7 +14,7 @@ updates:
     title: Post Title4
     date: June 8, 2016
     image: img/update-1.jpg
-    abstract: Here is the abstract field for the home page list.
+    abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et faucibus massa, et egestas neque. Integer quis bibendum leo. Aenean eu urna vulputate, maximus dui vitae, lacinia risus. Aliquam. 
     body: |
       <p>This is how you use normal markup for an article.</p>
       <img src="http://placehold.it/600x200"/>
@@ -25,7 +25,7 @@ updates:
     title: Post Title3
     date: June 8, 2016
     image: img/update-1.jpg
-    abstract: Here is the abstract field for the home page list.
+    abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et faucibus massa, et egestas neque. Integer quis bibendum leo. Aenean eu urna vulputate, maximus dui vitae, lacinia risus. Aliquam. 
     body: |
       <p>This is how you use normal markup for an article.</p>
       <img src="http://placehold.it/600x200"/>
@@ -36,7 +36,7 @@ updates:
     title: Post Title2
     date: June 8, 2016
     image: img/update-1.jpg
-    abstract: Here is the abstract field for the home page list.
+    abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et faucibus massa, et egestas neque. Integer quis bibendum leo. Aenean eu urna vulputate, maximus dui vitae, lacinia risus. Aliquam. 
     body: |
       <p>This is how you use normal markup for an article.</p>
       <img src="http://placehold.it/600x200"/>
@@ -47,7 +47,7 @@ updates:
     title: Post Title1
     date: June 8, 2016
     image: img/update-1.jpg
-    abstract: Here is the abstract field for the home page list.
+    abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et faucibus massa, et egestas neque. Integer quis bibendum leo. Aenean eu urna vulputate, maximus dui vitae, lacinia risus. Aliquam. 
     body: |
       <p>This is how you use normal markup for an article.</p>
       <img src="http://placehold.it/600x200"/>

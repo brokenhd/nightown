@@ -32,14 +32,23 @@
 			<?php $i = 0; foreach($updates['updates'] as $update): ?>
 				<?php if(++$i > 4) break; ?>
 
-				<div class="update"	style="background-image: url('<?= $update['image']; ?>');">
-					<a href="/updates/show?<?= $update['slug']; ?>" class="copy">
-						<p class="date"><?= $update['date']; ?></p>
-						<h3><?= $update['title']; ?></h3>
-						<p><?= $update['abstract']; ?></p>
-						<span class="long-arrow"></span>
-					</a>
-				</div>
+				<a href="/updates/show?<?= $update['slug']; ?>" class="update">
+
+					<div class="bkgd" style="background-image: url('<?= $update['image']; ?>');"></div>
+
+					<div class="copy">
+
+						<div class="middle">
+							<p class="date"><?= $update['date']; ?></p>
+							<h3 class="title"><?= $update['title']; ?></h3>
+							<p class="abstract"><?= $update['abstract']; ?></p>
+							<img src="/img/arrow.png" class="long-arrow"/>
+							<div class="more">Read Post</div>
+						</div>
+
+					</div>
+
+				</a>
 
 			<?php endforeach; ?>
 

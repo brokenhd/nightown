@@ -23,7 +23,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 table { border-collapse: collapse; border-spacing: 0; }
 
 /* line 1, ../sass/_global.scss */
-body { background: white; font-family: 'hydrophilia-iced'; -webkit-font-smoothing: antialiased; }
+body { background: white; font-family: 'hydrophilia-iced', 'serif'; -webkit-font-smoothing: antialiased; }
 
 /* line 7, ../sass/_global.scss */
 * { box-sizing: border-box; }
@@ -89,5 +89,48 @@ h2 { font-size: 28px; line-height: 35px; text-transform: uppercase; font-weight:
 .characters .character:nth-of-type(n+4) { border-top: none; }
 /* line 67, ../sass/_characters.scss */
 .characters .character .model, .characters .character .description, .characters .character .name { display: none; }
+
+/* line 1, ../sass/_updates.scss */
+.updates { display: inline-block; padding: 130px 0; width: 100%; text-align: center; }
+/* line 7, ../sass/_updates.scss */
+.updates .content { max-width: 800px; margin: 0 auto; position: relative; display: inline-block; width: 100%; text-align: left; }
+/* line 16, ../sass/_updates.scss */
+.updates .update { position: relative; }
+/* line 19, ../sass/_updates.scss */
+.updates .update:not(:first-child) { position: absolute; right: 0; width: calc(40% - 20px); height: calc(100%/3 - 15px); top: 0; }
+/* line 26, ../sass/_updates.scss */
+.updates .update:not(:first-child) .long-arrow, .updates .update:not(:first-child) .abstract { display: none; }
+/* line 28, ../sass/_updates.scss */
+.updates .update:not(:first-child) .bkgd { position: absolute; width: calc(33.3333% + 15px); height: 0; padding-bottom: calc(33.3333% + 15px); }
+/* line 35, ../sass/_updates.scss */
+.updates .update:not(:first-child) .copy { position: relative; float: left; z-index: 1; width: calc(80% - 20px); margin-left: calc(33.3333% + 25px); display: table; height: 100%; }
+/* line 44, ../sass/_updates.scss */
+.updates .update:not(:first-child) .copy .middle { width: 100%; display: table-cell; vertical-align: middle; }
+/* line 50, ../sass/_updates.scss */
+.updates .update:not(:first-child) .copy .title { font-size: 25px; letter-spacing: 1.6px; margin: 5px 0 8px; text-transform: uppercase; color: #312f30; }
+/* line 58, ../sass/_updates.scss */
+.updates .update:not(:first-child) .copy .date { font-size: 9px; letter-spacing: 1.6px; color: #312f30; }
+/* line 64, ../sass/_updates.scss */
+.updates .update:not(:first-child) .copy .more { font-size: 13px; color: #d27aff; letter-spacing: 1.6px; text-transform: uppercase; }
+/* line 73, ../sass/_updates.scss */
+.updates .update:nth-child(3) { top: calc(33.3333% + 7.5px); }
+/* line 74, ../sass/_updates.scss */
+.updates .update:nth-child(4) { top: calc(66.6666% + 15px); }
+/* line 76, ../sass/_updates.scss */
+.updates .update:first-child { float: left; width: 60%; margin-right: 20px; height: 0; padding-bottom: 50%; color: white; }
+/* line 84, ../sass/_updates.scss */
+.updates .update:first-child .more { display: none; }
+/* line 86, ../sass/_updates.scss */
+.updates .update:first-child .bkgd { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-position: center; background-size: cover; }
+/* line 96, ../sass/_updates.scss */
+.updates .update:first-child .copy { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 40px; border: 5px solid white; width: calc(100% - 40px); height: calc(100% - 40px); text-align: center; }
+/* line 107, ../sass/_updates.scss */
+.updates .update:first-child .copy .date { font-size: 9px; letter-spacing: 1.6px; margin-bottom: 5px; font-weight: 400; }
+/* line 114, ../sass/_updates.scss */
+.updates .update:first-child .copy .title { font-size: 26px; letter-spacing: 1.6px; margin-bottom: 40px; text-transform: uppercase; font-weight: 400; }
+/* line 122, ../sass/_updates.scss */
+.updates .update:first-child .copy .abstract { font-size: 13px; line-height: 24px; letter-spacing: 1.6px; margin-bottom: 20px; text-align: left; display: block; }
+/* line 132, ../sass/_updates.scss */
+.updates .update:first-child .long-arrow { display: inline-block; margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
