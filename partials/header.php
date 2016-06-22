@@ -12,7 +12,7 @@
 
 		<title>Nightown</title>
 
-		<link rel="stylesheet" href="/dist/main.css">
+		<link rel="stylesheet" href="/dist/main.min.css">
 		<script src="https://use.typekit.net/auk7bos.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
@@ -21,6 +21,9 @@
 	<body>
 
 		<div class="header">
+			<div id="stars"></div>
+			<div id="stars2"></div>
+			<div id="stars3"></div>
 			<div class="social">
 				<a href="<?= $global['social']['facebook']; ?>"></a>
 				<a href="<?= $global['social']['twitter']; ?>"></a>
@@ -28,7 +31,7 @@
 				<a href="<?= $global['social']['patreon']; ?>"></a>
 			</div>
 			<div class="content">
-				<img src="img/nightown.png">
+				<img src="/img/nightown.png">
 				<div class="main-nav">
 					<a href="#game">Game</a>
 					<a href="#characters">Characters</a>
